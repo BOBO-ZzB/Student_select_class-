@@ -1,0 +1,394 @@
+@CHARSET "UTF-8";
+/*登录注册的大标题*/
+#l_r_Head {
+    color: cadetblue;
+    font-size: 35px;
+    font-family: 黑体;
+}
+
+/*登录注册的小标题*/
+#h {
+    color: blue;
+    font-size: 30px;
+    font-family: 华文彩云;
+}
+
+/*登录信息*/
+#LR {
+    margin-left: 650px;
+    color: blue;
+}
+
+/*登录注册的label*/
+.label_lr {
+    font-size: 17px;
+    font-style: normal;
+}
+
+/*登录注册的文本框*/
+.text_input_lr {
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+/*登录的背景边框*/
+#login_form {
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 400px;
+    height: 350px;
+    border: 1px solid #9bdf70;
+    background: #f0fbeb;
+    overflow: auto;
+
+}
+
+/*注册的背景边框*/
+#regist_form {
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 500px;
+    height: 450px;
+    /*/background: darkseagreen;*/
+    border: 1px solid #9bdf70;
+    background: #f0fbeb;
+    overflow: auto;
+}
+
+/*登录提交的按钮*/
+#sub_btn {
+    width: 160px;
+    height: 45px;
+    border-radius: 200px;
+}
+
+/*登录错误信息提示*/
+#errorMsg {
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: red;
+    background: lightgray;
+}
+
+/*验证码输入框*/
+#code {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+/*验证码图片*/
+#code_img {
+    float: right;
+    margin-right: 10px;
+    width: 130px;
+    height: 35px
+}
+
+/*注册提示信息*/
+.tip {
+    font-size: 10px;
+}
+
+/*设置各个页面的背景图*/
+#background {
+    background-image: url("../../image/bgg.jpg");
+}
+
+#background2 {
+    background-image: url("../../image/background.jpg");
+}
+
+/*登录进去的大标题*/
+#head {
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    color: transparent;
+    background-color: black;
+    font-size: 22px;
+    text-shadow: rgba(255, 255, 255, 0.5) 0 5px 6px, rgba(255, 255, 255, 0.2) 1px 3px 3px;
+    -webkit-background-clip: text;
+}
+
+/*菜单选项的样式*/
+#menu {
+    line-height: 45px;
+    font-size: 22px;
+    height: 50px;
+    background: darkslateblue;
+}
+
+#menu a {
+    color: #e3e3e3;
+}
+
+/*操作界面*/
+#control {
+    /*margin: auto;*/
+    margin-left: 15px;
+    margin-top: 10px;
+    font-style: normal;
+    /*font-weight: bolder;*/
+
+}
+
+#control a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+/*用户信息访问（右上）*/
+#user_info {
+    font-style: normal;
+    margin-left: 550px;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    color: white;
+}
+
+#user_info b {
+    color: #ff5722;
+}
+
+/*管理标题*/
+.manage_title {
+    font-size: 28px;
+    height: 45px;
+    line-height: 50px;
+    margin-left: 45%;
+}
+
+#print {
+    margin-left: 450px;
+    width: 85px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px #E5E7EA solid;
+    border-radius: 5px;
+    display: inline-block;
+    background: dimgrey;
+    color: white;
+}
+
+/*条件查询布局*/
+.search {
+    text-align: center;
+    line-height: 40px;
+    background: #E0E0E0;
+    height: 40px;
+    color: grey;
+    font-style: normal;
+    margin-top: 15px
+}
+
+#search_title {
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.serach_input {
+    width: 80px;
+}
+
+/*让表格进行斑马分色*/
+.form_show tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+/*查询不到显示的信息*/
+#notfound_info {
+    text-align: center;
+    font-size: 25px;
+    color: red;
+    margin-top: 150px
+}
+
+/*显示信息面板的表格的样式*/
+.form_show {
+    margin-top: 10px;
+    width: auto;
+    height: 385px;
+    overflow: auto;
+}
+
+.form_show table {
+    margin-top: 10px;
+    margin-left: 50px;
+    border-collapse: collapse;
+}
+
+.form_show table td {
+    width: 220px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px #e3e3e3 solid;
+    padding: 12px;
+}
+
+.form_show table td input {
+    text-align: center;
+    font-size: 16px;
+}
+
+/*下拉列表的选项框*/
+.form_show table td select {
+    border-bottom: 1px black solid;
+    font-size: 15px;
+    width: 160px;
+    height: 24px;
+}
+
+/*更新提交按钮*/
+.edit_update {
+    width: 68px;
+    height: 30px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    border: 1px #E5E7EA solid;
+    border-radius: 5px;
+    display: inline-block;
+    background: dodgerblue;
+    color: white;
+}
+
+/*分页部分*/
+#page_nav {
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 37%;
+}
+
+#pn_input {
+    text-align: center;
+    width: 30px;
+}
+
+#page_nav a:active {
+    background: #AFC1DC
+}
+
+#page_nav a {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 8px;
+    text-decoration: none;
+    padding: 0px;
+    border: 1px #E5E7EA solid;
+    border-radius: 5px;
+    display: inline-block;
+    background: #9bdf70;
+}
+
+/*按钮和a便签点击的背景色*/
+button:active {
+    background: #AFC1DC
+}
+
+a:active {
+    background: darkslateblue
+}
+
+#searchBtn:active {
+    background: #AFC1DC
+}
+
+#searchBtn {
+    width: 40px;
+    height: 30px;
+    border: 1px #E5E7EA solid;
+    border-radius: 10px;
+    background: #9bdf70;
+    color: black;
+}
+
+/*修改，删除,添加按钮*/
+.delete {
+    width: 45px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px #E5E7EA solid;
+    border-radius: 5px;
+    display: inline-block;
+    background: orangered;
+    color: white;
+}
+
+.update {
+    width: 45px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px #E5E7EA solid;
+    border-radius: 5px;
+    display: inline-block;
+    background: dodgerblue;
+    color: white;
+}
+
+.update_1 {
+    width: 65px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+    text-decoration: none;
+    border: 1px #E5E7EA solid;
+    border-radius: 5px;
+    display: inline-block;
+    background: dodgerblue;
+    color: white;
+}
+
+.add {
+
+    width: 78px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px #E5E7EA solid;
+    border-radius: 5px;
+    display: inline-block;
+    background: green;
+    color: white;
+
+}
+
+
+/*页尾部分*/
+#end {
+    height: 25px;
+    width: 100%;
+    line-height: 25px;
+    background: darkslateblue;
+    text-align: center;
+    margin-top: 23px;
+    position: absolute;
+    bottom: 0px;
+    color: #E0E0E0;
+}
+
+/*错误页面的背景图*/
+.error_bg {
+    text-align: center;
+    font-size: 25px;
+}
