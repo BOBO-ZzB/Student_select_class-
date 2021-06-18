@@ -1,7 +1,8 @@
-用的是IDEA，Tomcat8.0，MySQL8.0
+本系统为学生选课信息管理系统，可以对学院的信息进行CRUD操作
 
-这是使用最原始的JSP+Servlet搭建的JavaWeb项目
+开发环境用的是IDEA，Tomcat8.0，MySQL8.0， 数据库文件在SQL文件夹中。
 
-适合刚接触学习JavaWeb的同学进行学习
+这是使用最原始的JSP+Servlet搭建的JavaWeb项目，没有使用到框架，都是用到了最最原始的低层技术，前端用到了html+css+js，后端则是使用了MVC设计模式，没有那么多花里胡哨的东西，
+适合刚接触学习JavaWeb的同学进行学习。
 
-数据库文件在SQL的文件夹中
+
