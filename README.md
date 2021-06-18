@@ -1,1 +1,2 @@
-# SSM
+Notice
+这是使用最原始的JSP+Servlet搭建的JavaWeb项目
